@@ -1,0 +1,15 @@
+1. Tại sao lựa chọn kiến trúc là bước sống còn?
+Kiến trúc phần mềm là nền tảng của hệ thống, quyết định cách tổ chức, phát triển và mở rộng dự án. Một kiến trúc phù hợp giúp hệ thống dễ bảo trì, dễ nâng cấp và hoạt động ổn định. Nếu chọn sai kiến trúc, dự án có thể gặp khó khăn khi mở rộng và tốn nhiều chi phí sửa đổi sau này.
+2. Một số loại kiến trúc phần mềm
+Monolithic Architecture: Toàn bộ chức năng nằm trong một ứng dụng duy nhất, dễ phát triển nhưng khó mở rộng.
+Layered Architecture: Chia hệ thống thành các tầng như Presentation, Business và Data.
+Microservices Architecture: Chia hệ thống thành nhiều dịch vụ độc lập, dễ mở rộng và bảo trì.
+3. Các thuộc tính chất lượng của phần mềm
+Scalability (Khả năng mở rộng): Hệ thống vẫn hoạt động tốt khi số lượng người dùng tăng.
+Availability (Tính sẵn sàng): Hệ thống luôn sẵn sàng phục vụ người dùng.
+Maintainability (Khả năng bảo trì): Dễ sửa lỗi và nâng cấp.
+Performance (Hiệu năng): Tốc độ xử lý và phản hồi nhanh.
+Security (Bảo mật): Bảo vệ dữ liệu và ngăn chặn truy cập trái phép.
+Reliability (Độ tin cậy): Hoạt động ổn định và chính xác.
+4. Mối liên hệ giữa kiến trúc tốt và thành công của dự án
+Kiến trúc tốt giúp hệ thống ổn định, dễ mở rộng, giảm chi phí bảo trì và đáp ứng nhu cầu phát triển trong tương lai. Vì vậy, lựa chọn kiến trúc phù hợp ngay từ đầu là yếu tố quan trọng góp phần quyết định sự thành công của dự án.

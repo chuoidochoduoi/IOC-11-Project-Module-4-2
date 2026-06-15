@@ -1,0 +1,8 @@
+Module	                     Trách nhiệm
+User Management Service	     Quản lý tài khoản người dùng, đăng ký, đăng nhập, hồ sơ cá nhân.
+Product Management Service	Quản lý sản phẩm, danh mục sản phẩm, thông tin và hình ảnh sản phẩm.
+Order Management Service	Tạo đơn hàng, quản lý trạng thái đơn hàng, hủy đơn hàng.
+Payment Service           	Xử lý thanh toán, hoàn tiền, liên kết ví điện tử và ngân hàng.
+Shipping Service	        Quản lý vận chuyển, tính phí giao hàng, theo dõi trạng thái giao hàng.
+Inventory Service	         Quản lý tồn kho, cập nhật số lượng sản phẩm còn lại.
+

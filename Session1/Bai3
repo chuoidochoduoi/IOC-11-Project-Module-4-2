@@ -1,0 +1,13 @@
+Ưu điểm của DDD
+•	Gắn kết giữa nghiệp vụ và code: Mã nguồn phản ánh đúng các khái niệm trong thực tế doanh nghiệp, giúp dễ hiểu và dễ bảo trì.
+•	Ubiquitous Language (Ngôn ngữ chung): Developer, Tester, BA và khách hàng sử dụng cùng một thuật ngữ, giảm hiểu lầm trong giao tiếp.
+•	Tập trung vào Core Business Logic: Giúp nhóm phát triển ưu tiên những chức năng quan trọng nhất của doanh nghiệp.
+•	Dễ mở rộng: Hệ thống được chia thành các phần nghiệp vụ rõ ràng nên dễ phát triển trong tương lai.
+Nhược điểm của DDD
+•	Khó học và áp dụng: Có nhiều khái niệm mới như Entity, Value Object, Aggregate, Bounded Context,...
+•	Tốn thời gian phân tích nghiệp vụ: Cần nhiều buổi trao đổi với chuyên gia nghiệp vụ để hiểu đúng yêu cầu.
+•	Không phù hợp với dự án nhỏ: Việc áp dụng DDD có thể làm hệ thống trở nên phức tạp không cần thiết.
+•	Chi phí triển khai cao: Đòi hỏi đội ngũ có kinh nghiệm và sự phối hợp chặt chẽ giữa các bên.
+Kết luận
+Theo em, DDD là phương pháp phù hợp với các dự án có nghiệp vụ phức tạp và quy mô lớn. DDD giúp phần mềm phản ánh đúng hoạt động của doanh nghiệp và tập trung vào Core Business Logic. Tuy nhiên, việc áp dụng DDD cũng tốn thời gian, chi phí và không phải lúc nào cũng phù hợp với mọi dự án. Vì vậy cần cân nhắc trước khi triển khai.
+

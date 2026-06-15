@@ -1,0 +1,12 @@
+Tiêu chí	 Monolith	                                Microservices
+Cấu trúc	 Toàn bộ hệ thống nằm trong một ứng dụng	Hệ thống được chia thành nhiều dịch vụ nhỏ
+Triển khai	 Đơn giản	                                 Phức tạp hơn
+Mở rộng	     Mở rộng toàn bộ hệ thống	                Có thể mở rộng từng dịch vụ
+Công nghệ	 Thường dùng một công nghệ chung	        Mỗi dịch vụ có thể dùng công nghệ khác nhau
+Bảo trì	     Dễ khi hệ thống nhỏ	                    Dễ quản lý từng dịch vụ nhưng phức tạp tổng thể
+Hiệu năng    giao tiếp	Nhanh do gọi nội bộ         	Chậm hơn do gọi qua mạng
+Vận hành	 Đơn giản	                                 Cần DevOps, Docker, Kubernetes,...
+
+
+Theo em, Microservices mang lại nhiều lợi ích về khả năng mở rộng, triển khai độc lập và phát triển hệ thống lớn. Tuy nhiên, nó cũng đi kèm nhiều thách thức như độ phức tạp vận hành, độ trễ mạng, khó đảm bảo tính nhất quán dữ liệu và chi phí cao hơn.Vì vậy, Microservices không phải là "viên đạn bạc" có thể giải quyết mọi vấn đề. Đối với những hệ thống nhỏ hoặc startup mới thành lập, kiến trúc Monolith thường là lựa chọn hợp lý hơn. Chỉ khi hệ thống phát triển lớn, có nhiều nhóm phát triển và yêu cầu mở rộng cao thì doanh nghiệp mới nên cân nhắc chuyển sang
+
