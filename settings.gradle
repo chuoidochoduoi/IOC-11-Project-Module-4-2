@@ -1,5 +1,9 @@
 rootProject.name = 'Microservices-Learning'
 
-include 'Session2:inventory-service'
-include 'Session2:user-service'
-include 'Session2:Order-service'
+include 'Session2+Session3:inventory-service'
+include 'Session2+Session3:user-service'
+include 'Session2+Session3:Order-Service'
+
+include 'Session3:customer-service'
+include 'Session3:order-service'
+include 'Session3:product-service'
