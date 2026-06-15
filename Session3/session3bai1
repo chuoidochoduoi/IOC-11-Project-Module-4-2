@@ -1,0 +1,21 @@
+| Customer Service |
+          ▲
+          │ customerId
+          │
+|  Order Service   |
+          │
+          │ productId
+          ▼
+| Product Service  |
+
+
+•	Customer Service quản lý Customer.
+•	Product Service quản lý Product.
+•	Order Service quản lý Order và chỉ lưu customerId.
+•	Khi cần thông tin khách hàng hoặc sản phẩm, Order Service gọi API sang Customer Service hoặc Product Service.
+
+Lí do chỉ lưu customerId :
+·  Order Service sẽ phụ thuộc vào code Customer Service.
+·  Vi phạm nguyên tắc độc lập của Microservice.
+·  Thay đổi Customer có thể làm hỏng Order.
+·  Khó deploy độc lập.
