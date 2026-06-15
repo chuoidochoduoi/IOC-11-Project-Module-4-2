@@ -1,0 +1,5 @@
+rootProject.name = 'Microservices-Learning'
+
+include 'Session2:inventory-service'
+include 'Session2:user-service'
+include 'Session2:Order-service'
